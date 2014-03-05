@@ -1,11 +1,7 @@
-<h1>Test</h1>
-<script>
+<div class="full-screen">
+  <%= image_tag 'map.png', class: 'full-width' %>
+</div>
+<div class="row">
+    <h1>Test</h1>
+</div>
 
-  navigator.geolocation.getCurrentPosition(GetLocation);
-  function GetLocation(location) {
-      alert(location.coords.latitude);
-      alert(location.coords.longitude);
-      alert(location.coords.accuracy);
-  }
-
-</script>
